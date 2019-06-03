@@ -39,6 +39,7 @@ public class ArrayStorage {
                     for (int j = i; j < storage.length - 1; j++) {
                         storage[j] = storage[j + 1];
                     }
+                    storage[storage.length - 1] = null;
                     break;
                 }
             }
